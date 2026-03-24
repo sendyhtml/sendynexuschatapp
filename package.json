@@ -1,0 +1,13 @@
+{
+  "name": "nexus-chat",
+  "version": "1.0.0",
+  "description": "Real-time chat application with modern UI",
+  "main": "api/socket.js",
+  "scripts": {
+    "dev": "node api/socket.js"
+  },
+  "dependencies": {
+    "mongoose": "^7.5.0",
+    "socket.io": "^4.6.1"
+  }
+}
